@@ -44,10 +44,16 @@ __Problem Statement__
 - It is a binary classification problem, for a given pair of questions we need to predict if they are duplicate or not. 
 
 ### Visit file for in depth implementation.
-👉 https://github.com/Aditya-Mishra19/Quora-Question-Pair-Similarity/blob/main/Models_Implementation%20(Quora).ipynb
+👉 W2Vec(tfidf) - https://github.com/Aditya-Mishra19/Quora-Question-Pair-Similarity/blob/main/W2vec(TFIDF)%20-%20Quora.ipynb
+👉 Simple(tfidf) - https://github.com/Aditya-Mishra19/Quora-Question-Pair-Similarity/blob/main/TFIDF-%20Quora.ipynb
 
 # Conclusion(s);
-![Pretty_Table](https://user-images.githubusercontent.com/74649588/131156465-ab827a1f-2d24-4cef-a2e1-7a50852abd05.png)
+__Implemented Word2Vector TFIDF feature results are below;__
+![W2Vec(tfidf)](https://user-images.githubusercontent.com/74649588/131207076-fec9175d-db92-4fa0-8596-e1a16feaed45.png)
+
+__Implemented simple TFIDF feature results are below;__
+![Simple(tfidf)](https://user-images.githubusercontent.com/74649588/131207121-7af31913-7410-4407-99e0-ead41443bef6.png)
+
 #### Observation(s);
 - We can observe that using simple TFIDF method we got less log loss as compare to TFIDF W2vec.
 - When using Simple TFIDF the dimension is increased, our logistic regression and Linear SVM performs well as compare to complex TFIDF w2vec.
