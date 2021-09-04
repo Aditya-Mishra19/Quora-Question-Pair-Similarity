@@ -45,6 +45,7 @@ __Problem Statement__
 
 ### Visit file for in depth implementation.
 👉 W2Vec(tfidf) - https://github.com/Aditya-Mishra19/Quora-Question-Pair-Similarity/blob/main/W2vec(TFIDF)%20-%20Quora.ipynb
+
 👉 Simple(tfidf) - https://github.com/Aditya-Mishra19/Quora-Question-Pair-Similarity/blob/main/TFIDF-%20Quora.ipynb
 
 # Conclusion(s);
